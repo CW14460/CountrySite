@@ -1,0 +1,63 @@
+/*
+
+    selector {
+        property: value;
+        property: value;
+        property: value;
+        etc.
+    }
+
+    Selector options:
+
+    tag name, such as p or img
+    .class name, such as .green or .highlighted
+    tag.class, such as h1.green or p.highlighted
+
+    tagname>tagname
+    .class>tagname
+    tagname>.classname
+    .classname>.classname
+*/
+
+.nav {
+    list-style: none;
+
+    border-style: dotted;
+
+    padding-left: 0%;
+
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.nav>li{
+   border-style: groove;
+
+   display: inline-block;
+
+
+}
+
+.alliance{
+    width: 90%;
+    height: auto;
+}
+
+.military{
+    width: 90%;
+    height: auto;
+}
+
+.moon{
+    width: 90%;
+    height: auto;
+}
+
+body{
+    background-image: url(Images/American\ flag.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
